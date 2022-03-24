@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F93EB81527EBE963009B0C2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93EB81427EBE963009B0C2F /* AppDelegate.swift */; };
+		F93EB81927EBE963009B0C2F /* RedditMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93EB81827EBE963009B0C2F /* RedditMainViewController.swift */; };
+		F93EB81C27EBE963009B0C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93EB81A27EBE963009B0C2F /* Main.storyboard */; };
+		F93EB81E27EBE964009B0C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93EB81D27EBE964009B0C2F /* Assets.xcassets */; };
+		F93EB82127EBE964009B0C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93EB81F27EBE964009B0C2F /* LaunchScreen.storyboard */; };
+		F93EB82927EBECE6009B0C2F /* RedditContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93EB82827EBECE6009B0C2F /* RedditContentManager.swift */; };
+		F93EB82B27EBED26009B0C2F /* RedditDataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93EB82A27EBED26009B0C2F /* RedditDataItem.swift */; };
+		F93EB82D27EBF8B1009B0C2F /* RedditArticleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93EB82C27EBF8B1009B0C2F /* RedditArticleTableCell.swift */; };
+		F97D4E9427EC962500CECDDF /* RedditArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D4E9327EC962500CECDDF /* RedditArticleTableViewCell.swift */; };
+		F97D4E9827EC96A000CECDDF /* RedditDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F97D4E9727EC96A000CECDDF /* RedditDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F93EB81127EBE963009B0C2F /* HavasAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HavasAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93EB81427EBE963009B0C2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F93EB81827EBE963009B0C2F /* RedditMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditMainViewController.swift; sourceTree = "<group>"; };
+		F93EB81B27EBE963009B0C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F93EB81D27EBE964009B0C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F93EB82027EBE964009B0C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F93EB82227EBE964009B0C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93EB82827EBECE6009B0C2F /* RedditContentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditContentManager.swift; sourceTree = "<group>"; };
+		F93EB82A27EBED26009B0C2F /* RedditDataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditDataItem.swift; sourceTree = "<group>"; };
+		F93EB82C27EBF8B1009B0C2F /* RedditArticleTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditArticleTableCell.swift; sourceTree = "<group>"; };
+		F960DA8727ECB49700AED9B6 /* HavasAssignment-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HavasAssignment-Bridging-Header.h"; sourceTree = "<group>"; };
+		F97D4E9327EC962500CECDDF /* RedditArticleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditArticleTableViewCell.swift; sourceTree = "<group>"; };
+		F97D4E9627EC96A000CECDDF /* RedditDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedditDetailViewController.h; sourceTree = "<group>"; };
+		F97D4E9727EC96A000CECDDF /* RedditDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F93EB80E27EBE963009B0C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F93EB80827EBE962009B0C2F = {
+			isa = PBXGroup;
+			children = (
+				F93EB81327EBE963009B0C2F /* HavasAssignment */,
+				F93EB81227EBE963009B0C2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F93EB81227EBE963009B0C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F93EB81127EBE963009B0C2F /* HavasAssignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F93EB81327EBE963009B0C2F /* HavasAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				F960DA8727ECB49700AED9B6 /* HavasAssignment-Bridging-Header.h */,
+				F93EB81427EBE963009B0C2F /* AppDelegate.swift */,
+				F97D4E9327EC962500CECDDF /* RedditArticleTableViewCell.swift */,
+				F93EB81827EBE963009B0C2F /* RedditMainViewController.swift */,
+				F93EB82827EBECE6009B0C2F /* RedditContentManager.swift */,
+				F93EB82C27EBF8B1009B0C2F /* RedditArticleTableCell.swift */,
+				F93EB82A27EBED26009B0C2F /* RedditDataItem.swift */,
+				F97D4E9627EC96A000CECDDF /* RedditDetailViewController.h */,
+				F97D4E9727EC96A000CECDDF /* RedditDetailViewController.m */,
+				F93EB81A27EBE963009B0C2F /* Main.storyboard */,
+				F93EB81D27EBE964009B0C2F /* Assets.xcassets */,
+				F93EB81F27EBE964009B0C2F /* LaunchScreen.storyboard */,
+				F93EB82227EBE964009B0C2F /* Info.plist */,
+			);
+			path = HavasAssignment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F93EB81027EBE963009B0C2F /* HavasAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93EB82527EBE964009B0C2F /* Build configuration list for PBXNativeTarget "HavasAssignment" */;
+			buildPhases = (
+				F93EB80D27EBE963009B0C2F /* Sources */,
+				F93EB80E27EBE963009B0C2F /* Frameworks */,
+				F93EB80F27EBE963009B0C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HavasAssignment;
+			productName = HavasAssignment;
+			productReference = F93EB81127EBE963009B0C2F /* HavasAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F93EB80927EBE962009B0C2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F93EB81027EBE963009B0C2F = {
+						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
+					};
+				};
+			};
+			buildConfigurationList = F93EB80C27EBE962009B0C2F /* Build configuration list for PBXProject "HavasAssignment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F93EB80827EBE962009B0C2F;
+			productRefGroup = F93EB81227EBE963009B0C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F93EB81027EBE963009B0C2F /* HavasAssignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F93EB80F27EBE963009B0C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93EB82127EBE964009B0C2F /* LaunchScreen.storyboard in Resources */,
+				F93EB81E27EBE964009B0C2F /* Assets.xcassets in Resources */,
+				F93EB81C27EBE963009B0C2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F93EB80D27EBE963009B0C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97D4E9427EC962500CECDDF /* RedditArticleTableViewCell.swift in Sources */,
+				F93EB81927EBE963009B0C2F /* RedditMainViewController.swift in Sources */,
+				F97D4E9827EC96A000CECDDF /* RedditDetailViewController.m in Sources */,
+				F93EB82D27EBF8B1009B0C2F /* RedditArticleTableCell.swift in Sources */,
+				F93EB82B27EBED26009B0C2F /* RedditDataItem.swift in Sources */,
+				F93EB82927EBECE6009B0C2F /* RedditContentManager.swift in Sources */,
+				F93EB81527EBE963009B0C2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F93EB81A27EBE963009B0C2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93EB81B27EBE963009B0C2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F93EB81F27EBE964009B0C2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93EB82027EBE964009B0C2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F93EB82327EBE964009B0C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F93EB82427EBE964009B0C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F93EB82627EBE964009B0C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GL5S7XZC85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HavasAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johncebasek.HavasAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HavasAssignment/HavasAssignment-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "HavasAssignment/$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F93EB82727EBE964009B0C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GL5S7XZC85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HavasAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johncebasek.HavasAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HavasAssignment/HavasAssignment-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "HavasAssignment/$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F93EB80C27EBE962009B0C2F /* Build configuration list for PBXProject "HavasAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93EB82327EBE964009B0C2F /* Debug */,
+				F93EB82427EBE964009B0C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93EB82527EBE964009B0C2F /* Build configuration list for PBXNativeTarget "HavasAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93EB82627EBE964009B0C2F /* Debug */,
+				F93EB82727EBE964009B0C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F93EB80927EBE962009B0C2F /* Project object */;
+}
